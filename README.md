@@ -38,10 +38,10 @@ Services Provided:
 
 10. Delete a movie from user's movie list by providing Userid, Movieid
     -DELETE
-    -Route : "/usermovie/deleteusermovie"
+    -Route : "usermovie/deleteusermovie"
     -Params : {userid, movieid}
 
 11. Get the movie list of a User by Userid
     - GET
-    - Route : "/usermovie/getusermovies/:User_id"
+    - Route : "usermovie/getusermovies/:User_id"
 
