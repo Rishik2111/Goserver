@@ -32,14 +32,14 @@ Services Provided:
 
 
 9. Add a movie to user's movie list
-    -POST
-    -Route : "/usermovie/add"
-    -Data { UserId, MovieId, Rating(Optional)}
+    - POST
+    - Route : "/usermovie/add"
+    - Data { UserId, MovieId, Rating(Optional)}
 
 10. Delete a movie from user's movie list by providing Userid, Movieid
-    -DELETE
-    -Route : "/usermovie/deleteusermovie"
-    -Params : {userid, movieid}
+    - DELETE
+    - Route : "/usermovie/deleteusermovie"
+    - Params : {userid, movieid}
 
 11. Get the movie list of a User by Userid
     - GET
